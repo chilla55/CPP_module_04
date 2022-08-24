@@ -6,7 +6,7 @@
 /*   By: agrotzsc <agrotzsc@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 10:57:49 by agrotzsc          #+#    #+#             */
-/*   Updated: 2022/08/24 15:38:17 by agrotzsc         ###   ########.fr       */
+/*   Updated: 2022/08/24 17:53:55 by agrotzsc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ int	main( void )
 {
 	Animal	*animals[NUMBER_OF_ANIMALS];
 	Brain	*brain;
-
-	/* Animal *bonjour = new Animal(); */
 
 	for (int i = 0; i < NUMBER_OF_ANIMALS; i++)
 	{
