@@ -6,7 +6,7 @@
 /*   By: agrotzsc <agrotzsc@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 15:30:35 by agrotzsc          #+#    #+#             */
-/*   Updated: 2022/08/24 17:21:00 by agrotzsc         ###   ########.fr       */
+/*   Updated: 2022/08/24 17:40:49 by agrotzsc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,10 @@ int main()
 	me->equip(tmp);
 	tmp = src->createMateria("cure");
 	me->equip(tmp);
+	me->printInventory();
+	tmp = src->createMateria("ice");
+	me->equip(tmp);
+	me->printInventory();
 	ICharacter* bob = new Character("bob");
 	me->printInventory();
 	me->use(0, *bob);
